@@ -14,7 +14,7 @@ class Lambda(nn.Module):
     def __init__(self, func):
         "create a layer that simply calls `func` with `x`"
         super().__init__()
-        self.func = func
+        self.func = func 
 
     def forward(self, x):
         return self.func(x)
