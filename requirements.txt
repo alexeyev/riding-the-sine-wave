@@ -1,4 +1,4 @@
-torch==1.4.0+cpu
+torch==2.2.0
 tqdm
 gym
 numpy
